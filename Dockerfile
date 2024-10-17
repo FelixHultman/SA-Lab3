@@ -1,8 +1,8 @@
 
-FROM jboss/wildfly:26.1.0.Final-jdk22
+FROM quay.io/wildfly/wildfly:27.0.0.Final-jdk17
 
 
-COPY target/SA-Lab2-1.0-SNAPSHOT.war /opt/jboss/wildfly/standalone/deployments/
+COPY target/SA-Lab2-1.0-SNAPSHOT.war /opt/jboss/wildfly/standalone/deployments/SA-Lab2-1.0-SNAPSHOT.war
 
 
 EXPOSE 8080
