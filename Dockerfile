@@ -1,5 +1,5 @@
 
-FROM quay.io/wildfly/wildfly:27.0.0.Final-jdk17
+FROM quay.io/wildfly/wildfly
 
 
 COPY target/SA-Lab2-1.0-SNAPSHOT.war /opt/jboss/wildfly/standalone/deployments/SA-Lab2-1.0-SNAPSHOT.war
